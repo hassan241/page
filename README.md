@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+  <!DOCTYPE html>
+  <html lang="En">
 
-You can use the [editor on GitHub](https://github.com/hassan241/page/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  <head>
+    <meta charset="utf-8">
+    <title>Building the Prototype</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <body>
+    <div id="container">
+      <h1 class="header">cat</h1>
+      
+      <img src="cat.jpg" alt="cat" class="content">
+      
+      <div id="card" class="animal-info">
+        <p id="interesting-fact" class="italic">
+          There are over 500 million domestic cats in the world.
+        </p>
+        <ul id="facts">
+          <li>
+            <span class="list-title">Scientific Name</span>: Felis catus
 
-### Markdown
+          </li>
+          <li>
+            <span class="list-title">Average Length</span>: 23 cm
+          </li>
+          <li>
+            <span class="list-title">Average Lifespan</span>: 7 years
+          </li>
+          <li>
+            <span class="list-title">Habitat</span>: wild
+          </li>
+        </ul>
+        <p id="summary">cats can only be found in the wild.
+            Cats can be lethal hunters and very sneaky,
+            when they walk their back paws step almost exactly in the same place as the front paws did beforehand,
+            this keeps noise to a minimum and limits visible tracks..
+        </p>
+      </div>
+    </div>
+  </body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hassan241/page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  </html>
