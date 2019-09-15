@@ -1,0 +1,39 @@
+  /* add your CSS /* add your CSS here */
+
+  #container {
+    width: 300px;
+    border: 1px solid #DCDCDC;
+    box-shadow: 6px 6px 1px 0px #EBEBEB;
+    padding:3px;}
+  
+  .header {
+      margin-left: 10px;
+      font-size: 25px;
+  }
+  
+  .content {width:300px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding:0px;
+  }
+  .animal-info {
+    width: 283px;
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+  }
+  
+
+    
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .list-title {
+    font-weight: bold;
+  }here */
